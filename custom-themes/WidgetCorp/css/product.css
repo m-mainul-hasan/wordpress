@@ -1,0 +1,7 @@
+.product-title { background: url(../images/bg.png); padding: 10px 32px; width: 500px; position: relative; left: -30px; color: #eee; text-shadow: 1px 1px 0 #666, 2px 2px 0 #666; ; margin: 0 0 15px 0; }
+
+.product-info-box { position: relative; margin: 0 0 15px 0; }
+.product-info-box ul { position: absolute; background: rgba(255,255,255,0.5); padding: 10px; right: -40px; width: 140px; top: 100px; list-style: none; }
+.product-info-box ul li { margin: 0 0 10px 0; }
+.product-info-box ul li h5 { background: url(../images/bg.png); padding: 0 5px; color: white; margin: 0; }
+
