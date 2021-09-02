@@ -73,6 +73,6 @@ try {
         exit('Already running job: ' . $job_name);
     }
 } catch (Exception $e) {
-    mail('moh.mainul.hasan@gmail.com', 'Reefs4Less cron error', $e->getMessage(), 'From: info@wp_site_name.com');
+    mail('moh.mainul.hasan@gmail.com', 'WP Site cron error', $e->getMessage(), 'From: info@wp_site_name.com');
     exit("Exception: " . $e->getMessage() . PHP_EOL);
 }
