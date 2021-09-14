@@ -5,7 +5,7 @@
  * Plugin URI: 
  * Description: Create extra product fields.
  * Version: 0.1
- * Author: Mainul Hasan (moh.mainu.hasan@gmail.com)
+ * Author: Mainul Hasan (moh.mainul.hasan@gmail.com)
  * Author URI: https://github.com/m-mainul-hasan/wordpress/tree/master/custom-plugins
  */
 
