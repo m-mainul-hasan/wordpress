@@ -5,7 +5,7 @@
  * Plugin URI: 
  * Description: Will sync cart and order with Vendor, which will provide the products or goods.
  * Version: 0.1
- * Author: Mainul Hasan (moh.mainu.hasan@gmail.com)
+ * Author: Mainul Hasan (moh.mainul.hasan@gmail.com)
  * Author URI: https://github.com/m-mainul-hasan/wordpress/tree/master/custom-plugins
  */
 
