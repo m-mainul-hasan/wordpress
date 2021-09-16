@@ -6,7 +6,7 @@
  * Description: Will sync cart and order with vendor.
  * Version: 0.1
  * Author: Mohammad Mainul Hasan (moh.mainul.hasan@gmail.com)
- * Author URI: https://github.com/m-mainul-hasan/wordpress/tree/master/custom-plugins
+ * Author URI: https://github.com/m-mainul-hasan
  */
 
 if (!defined('ABSPATH')) {
@@ -180,7 +180,7 @@ function wp_submit_order_to_vendor($order_id)
         );
 
         if ($response->status == 'error') {
-            $wpdb->insert('r4_vendor_failed_orders', array('wc_order_id' => $order_id));
+            $wpdb->insert('wp_vendor_failed_orders', array('wc_order_id' => $order_id));
         } else {
             $order->update_meta_data('_vendor_order_response', json_encode($response));
             $order->update_meta_data('_vendor_order_id', $response->orderid);
