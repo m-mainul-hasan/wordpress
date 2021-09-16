@@ -16,7 +16,7 @@ function wp_fedex_order_view_menu() {
         'Fedex Order Table',
         'Fedex Table',
         'manage_options',
-        'reefs4less-fedex-order-table',
+        'wp-fedex-order-table',
         'wp_fedex_order_table',
         'dashicons-buddicons-groups'
     );
