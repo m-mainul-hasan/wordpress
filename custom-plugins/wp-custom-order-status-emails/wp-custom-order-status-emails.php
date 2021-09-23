@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Wp Site Custom Order Status Emails
- * Plugin URI: https://www.reefs4less.com/
+ * Plugin URI: 
  * Description: Will send email fors custom order statuses
  * Version: 0.1
  * Author: Mohammad Mainul Hasan (moh.mainul.hasan@gmail.com)
